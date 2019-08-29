@@ -9,12 +9,11 @@
 > ShapeCreator支持动态设置shape标签下的 \<solid /> \<size /> \<corners /> \<stroke /> \<gradient /> 以及\<shape shape=''>,同时还支持state_press,state_enabled 状态变化。<br>
 \<shape>标签对应的Android类为GradientDrawable，所以ShapeCreator就是对GradientDrawable进行了一个方法封装，使用起来简单方便。
 
-
-![效果图](img\img.gif)
+<img src='img\img.gif'>
 
 ## 使用：
 ### 圆角
-![圆角](img\img_1.png)
+<img src='img\img_1.png'>
 
         //圆角
         ShapeCreator.create()
