@@ -9,11 +9,11 @@
 > ShapeCreator支持动态设置shape标签下的 \<solid /> \<size /> \<corners /> \<stroke /> \<gradient /> 以及\<shape shape=''>,同时还支持state_press,state_enabled 状态变化。<br>
 \<shape>标签对应的Android类为GradientDrawable，所以ShapeCreator就是对GradientDrawable进行了一个方法封装，使用起来简单方便。
 
-<img src='img\img.gif'>
+<img src='img\img.gif' width = "50%" height = "50%" >
 
 ## 使用：
 ### 圆角
-<img src='img\img_1.png'>
+<img src='img\img_1.png' width = "50%" height = "50%">
 
         //圆角
         ShapeCreator.create()
@@ -22,7 +22,7 @@
                 .into(btn1);
 
 ### 圆角边框
-![圆角边框](img\img_2.png)
+<img src='img\img_2.png' width = "50%" height = "50%">
 
         //圆角边框
         ShapeCreator.create()
@@ -34,7 +34,7 @@
 
 
 ### 圆角边框-虚线效果
-![圆角边框](img\img_4.png)
+<img src='img\img_4.png' width = "50%" height = "50%">
 
         //圆角边框-虚线
         ShapeCreator.create()
@@ -59,7 +59,7 @@
 
 
 ### 单独设置四个圆角
-![单独设置四个圆角](img\img_3.png)
+<img src='img\img_3.png' width = "50%" height = "50%">
 
         //左上圆角
         ShapeCreator.create()
@@ -112,7 +112,7 @@
                 .into(btn8);
 
 ### 圆形
-![圆形](img\img_5.png)
+<img src='img\img_5.png' width = "50%" height = "50%">
 
         //圆形
         ShapeCreator.oval()
@@ -127,7 +127,7 @@
                 .into(btn12);
 
 ### 线
-![线](img\img_6.png)
+<img src='img\img_6.png' width = "50%" height = "50%">
 
         //线
         ShapeCreator.line()
@@ -144,7 +144,7 @@
                 .into(btn14);
 
 ### 渐变效果
-![渐变效果](img\img_7.png)
+<img src='img\img_7.png' width = "50%" height = "50%">
 
         //渐变 线性
         ShapeCreator.create()
@@ -174,7 +174,7 @@
                 .into(btn17);
 
 ### 带交互状态
-![带交互状态](img\img_8.png)
+<img src='img\img_8.png' width = "50%" height = "50%">
 
          //状态
         ShapeCreator.create()
